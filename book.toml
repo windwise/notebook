@@ -1,5 +1,4 @@
-[book]
-authors = ["tao"]
-language = "en"
-multilingual = false
-src = "src"
+
+[build]
+build-dir = "docs"
+create-missing = false

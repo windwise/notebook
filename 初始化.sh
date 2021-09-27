@@ -10,3 +10,12 @@ table {
 	text-align:left;
 }
 EOF
+
+rm -rf $DIR/book
+rm -rf $DIR/book.toml
+cat <<EOF >> $DIR/book.toml
+
+[build]
+build-dir = "docs"
+create-missing = false
+EOF
